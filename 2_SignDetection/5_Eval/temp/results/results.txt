@@ -1,0 +1,62 @@
+# Number of ground-truth objects per class
+book: 6
+bookcase: 1
+coffeetable: 2
+doll: 1
+heater: 1
+pictureframe: 1
+pottedplant: 1
+tvmonitor: 1
+vase: 1
+
+# Number of predicted objects per class
+book: 8
+bookcase: 0
+coffeetable: 0
+doll: 0
+heater: 0
+pictureframe: 1
+pottedplant: 2
+tvmonitor: 1
+vase: 0
+
+# AP and precision/recall per class
+book AP = 50.00%
+ Precision: ['0.00', '1.00', '1.00', '0.67', '0.50', '0.40', '0.50', '0.43', '0.50', '0.00']
+ Recall   :['0.00', '0.17', '0.33', '0.33', '0.33', '0.33', '0.50', '0.50', '0.67', '1.00']
+
+bookcase AP = 0.00%
+ Precision: ['0.00', '0.00']
+ Recall   :['0.00', '1.00']
+
+coffeetable AP = 0.00%
+ Precision: ['0.00', '0.00']
+ Recall   :['0.00', '1.00']
+
+doll AP = 0.00%
+ Precision: ['0.00', '0.00']
+ Recall   :['0.00', '1.00']
+
+heater AP = 0.00%
+ Precision: ['0.00', '0.00']
+ Recall   :['0.00', '1.00']
+
+pictureframe AP = 100.00%
+ Precision: ['0.00', '1.00', '0.00']
+ Recall   :['0.00', '1.00', '1.00']
+
+pottedplant AP = 0.00%
+ Precision: ['0.00', '0.00', '0.00', '0.00']
+ Recall   :['0.00', '0.00', '0.00', '1.00']
+
+tvmonitor AP = 100.00%
+ Precision: ['0.00', '1.00', '0.00']
+ Recall   :['0.00', '1.00', '1.00']
+
+vase AP = 0.00%
+ Precision: ['0.00', '0.00']
+ Recall   :['0.00', '1.00']
+
+
+# mAP of all classes
+mAP = 27.78%

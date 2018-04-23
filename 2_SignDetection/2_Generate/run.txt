@@ -1,0 +1,1 @@
+python object_detection\dataset_tools\create_pascal_tf_record_VOC2007.py --data_dir=H:\DataStore\ai_check\model2\data\sign3_0412 --set=trainval --output_path=H:\DataStore\ai_check\model2\data\sign3_0412\sign3_trainval.record --label_map_path=H:\DataStore\ai_check\model2\data\sign3_0412\7_label_map.pbtxt

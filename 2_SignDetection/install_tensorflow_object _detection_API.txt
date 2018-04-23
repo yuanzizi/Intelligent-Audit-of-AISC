@@ -1,0 +1,29 @@
+# 可参考https://zhuanlan.zhihu.com/p/29215867
+	
+# 1、下载源代码https://github.com/tensorflow/models
+
+# 2、安装依赖环境
+
+sudo apt-get install protobuf-compiler python-pil python-lxml
+sudo pip install jupyter,matplotlib,pillow,lxml
+
+# 3、务必需要的操作
+
+必须编译Protobuf库，在object_detection同级目录打开终端运行：
+
+protoc object_detection/protos/*.proto --python_out=.
+
+将object_detection加入到环境变量
+
+打开.bashrc 修改下面PYTHONPATH为你的object_detection的路径
+
+export PYTHONPATH=$PYTHONPATH:`pwd`:`pwd`/slim
+
+
+#4、测试安装
+
+在object_detection同级目录打开终端运行：
+
+python object_detection/builders/model_builder_test.py
+
+结果没有报错，并且返回若干秒数据，则说明环境搭建成功。
