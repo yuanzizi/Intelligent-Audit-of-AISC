@@ -123,6 +123,7 @@
 	（3）运行5_Eval\sign2_convert_gt_xml.py，将sign2测试集合的标注文件转成txt文件<br>
 	（4）运行5_Eval\sign2_output_pos.py，将模型在sign2测试集合上的预测结果转成txt文件<br>
 	（5）运行5_Eval\sign2_main.py，评估sign2模型在mAP上的得分和具体每张图的结果<br>
+<<<<<<< HEAD
 
 
 ##2_SignComp文件夹结构<br>
@@ -187,3 +188,5 @@
 2、修改路径参数，运行两次2_Generate/make_ocr_dataset.py，分别根据训练和测试样本的签名生成对应的文本图片<br>
 3、运行3_Train/run.py，进行模型的训练<br>
 4、运行4_Validate/test_sia_conv_sign.py，输出模型的精度和混淆矩阵，并且将测试样本按照预测结果分为四个文件夹
+=======
+>>>>>>> e0d0d098c28a5ec15aed2ea2caef6f1624d56114
